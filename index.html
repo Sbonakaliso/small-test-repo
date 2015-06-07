@@ -16,10 +16,23 @@
 			body{
 				margin:0;
 			}
+			#TutorTool{
+				position:fixed;
+				bottom:1%;
+				left:40%;
+				border:none;
+				background:rgb(0,220,250);
+				color:rgb(255,255,255);
+				font-weight:bold;
+				font-size:150%;
+				z-index:998;
+	}
 	</style>
+	<script src="https://togetherjs.com/togetherjs-min.js"></script>
 	</head>
 	<body>
 		<header><h1>The Tutorial Centre</h1></header>
+		<button id="TutorTool" onclick="TogetherJS(this); return false;">Start TutorTool</button>
 		<iframe width="100%" height="500px" src="//jsfiddle.net/gtad76bj/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 </script>
 	</body>
